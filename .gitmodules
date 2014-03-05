@@ -1,3 +1,6 @@
 [submodule "vimfiles/bundle/snipmate"]
 	path = vimfiles/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vimfiles/bundle/easygrep"]
+	path = vimfiles/bundle/easygrep
+	url = http://github.com/dkprice/vim-easygrep.git
