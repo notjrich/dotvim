@@ -1,0 +1,16 @@
+##################################################################
+dotvim repository
+User: Jason Richmond
+##################################################################
+
+Installation:
+
+	git clone https://github.com/notjrich/dotvim.git ~/.vim
+
+Create symlinks:
+
+Switch to the ~/.vim directory and fetch submodules
+
+	cd ~/.vim
+	git submodule init
+	git submodule update
