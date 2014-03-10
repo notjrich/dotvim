@@ -62,3 +62,8 @@ map <leader>g :GundoToggle<CR>
 
 "Change working directory when changing tabs if t:wd is defined
 au TabEnter * if exists("t:wd") | exe "cd" t:wd | endif
+
+"Set snippets_dir
+if has('win32')
+	let g:snippets_dir = "C:/tools/vim/vimfiles/snippets"
+endif
